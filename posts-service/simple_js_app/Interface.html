@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Post Manager</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Post Manager</h1>
+    
+    <div id="post-list">
+        <h2>Posts</h2>
+        <ul id="posts"></ul>
+    </div>
+
+    <div id="post-form">
+        <h2>Create a Post</h2>
+        <input type="text" id="title" placeholder="Title">
+        <textarea id="content" placeholder="Content"></textarea>
+        <button onclick="createPost()">Submit</button>
+    </div>
+
+    <script src="index.js"></script>
+</body>
+</html>
